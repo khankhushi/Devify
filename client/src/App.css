@@ -1,0 +1,57 @@
+:root {
+  --pink: #B976FB;
+  --purple: #583194;
+  --blue: #2C89E8;
+  --lightblue:#48CFF7;
+  --lightpurple: #8F77B3;
+  --black: #242d49;
+  --gray: rgba(36, 45, 73, 0.65);
+  --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+  --hrColor: #cfcdcd;
+  --cardColor: rgba(255, 255, 255, 0.64);
+  --buttonBg: linear-gradient(106.23deg, #B976FB, #583194 100%);
+  --inputColor: rgba(40, 52, 62, 0.226);
+  --photo: #4CB256;
+  --video: #4A4EB7;
+  --location: #EF5757;
+--shedule: #E1AE4A;
+}
+
+.App{
+  overflow: hidden;
+  color: var(--black);
+  background: #f3f3f3;
+  padding: 1rem 1rem;
+}
+
+.blur{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #b976fb;
+  filter: blur(72px);
+  z-index: 0;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border:none;
+  border-radius: 0.5rem;
+  background: var(--buttonBg);
+  transition:all 100ms ease-out;
+}
+
+.button:hover{
+  cursor: pointer;
+  color: var(--purple);
+  background: transparent;
+  border: 2px solid var(--purple);
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
