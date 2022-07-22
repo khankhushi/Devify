@@ -77,7 +77,7 @@ function SignUp() {
             type="text"
             className="infoInput"
             name="username"
-            placeholder="Usernames"
+            placeholder="Enter a username"
           />
         </div>
 
